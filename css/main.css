@@ -1,0 +1,207 @@
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+
+body {
+	
+	text-align: center;
+}
+
+#header {
+	background-color: black;
+	color: white;
+	padding-bottom: 30px;
+}
+
+#header img {
+	z-index: 1;
+	
+}
+
+#tagline h2 {
+	 font-family: 'Alegreya', serif;
+	 border-top: 1px solid #ff1cd1;
+	 padding-top: 15px;
+	 font-size: 35px;
+}
+
+a, a:hover {
+	color: #ff1cd1;
+}
+
+h3 {
+	font-family: 'Allan', cursive;
+	color: white;
+	font-size: 26px;
+	background-color: #ff1cd1;
+	-ms-transform: rotate(0.7deg); /* IE 9 */
+	-webkit-transform: rotate(0.7deg); /* Safari */
+	transform: rotate(0.7deg);
+	padding: 5px 30px 8px 30px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	display: inline-flex
+}
+
+h4 {
+	font-family: 'Alegreya', serif;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+h5 {
+	font-family: 'Alegreya', serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+p, blockquote {
+	font-family: 'Alegreya', serif;
+}
+
+blockquote {
+	border: 1px solid #ff1cd1;
+	padding: 10px;
+	font-style: italic;
+	-ms-transform: rotate(-0.7deg); /* IE 9 */
+	-webkit-transform: rotate(-0.7deg); /* Safari */
+	 transform: rotate(-0.7deg);
+}
+
+
+#header-logo {
+	width: 100%;
+	margin-bottom: 20px;		
+}
+
+#header h2 {
+	/*margin-bottom: 28px;*/
+}
+
+#header h4 {
+	display: inline;
+	/*padding-top: 12px;
+	border-top: 1px solid white;*/
+}
+
+#main {
+	padding-top: 20px;
+	text-align: left;
+	background-color: white;
+}
+
+#main header {
+	text-align: center;
+}
+
+#life-plan h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 62px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	margin-bottom: -10px;
+	padding-top: 0px;
+	font-weight: 900;
+	line-height: 60px;
+}
+
+#company-info h3 {
+	font-size: 20px;
+	background-color: white;
+	color: #ff1cd1;
+}
+
+
+#mailchimp-form{
+	padding: 0px;
+	margin-left: 0px;
+}
+
+header h5 {
+	font-family: 'Alegreya', serif;
+	font-size: 20px;
+	font-weight: bold; 
+}
+
+#lp-ad {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#mc_embed_signup {
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+img.headshots {
+	width: 30%;
+	float: left;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) { 
+	#header-logo {
+		width: 90%;		
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	#header-logo {
+		width: 70%;
+		position: relative;
+		z-index: 1;
+	}
+	
+	#tagline h2 {
+		font-size: 60px;
+	}
+	
+	#tagline {
+	  -ms-transform: rotate(-12deg); /* IE 9 */
+	  -webkit-transform: rotate(-12deg); /* Safari */
+	  transform: rotate(-12deg);
+	  margin-top: -40px;
+	  margin-bottom: 40px;
+	  margin-left: -40px;
+	  width: 120%;
+	  z-index: -1;
+ 
+	}
+	
+	h3 {
+		font-size: 35px;
+	}
+	
+	#company-info {
+		border-left: 1px solid #ff1cd1;
+		padding-left: 30px;
+	}
+	
+	#lp-ad {
+	margin: 0px 20px 10px 0px;
+	float: left;
+	width: 70%;
+}
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	#header-logo {
+		width: 60%;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
