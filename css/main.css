@@ -91,6 +91,7 @@ blockquote {
 	padding-top: 20px;
 	text-align: left;
 	background-color: white;
+	position: relative;
 }
 
 #main header {
@@ -190,7 +191,11 @@ img.headshots {
 	#lp-ad {
 	margin: 0px 20px 10px 0px;
 	float: left;
-	width: 70%;
+	width: 50%;
+	}
+	blockquote {
+		overflow: auto;
+	}
 }
 	
 }
