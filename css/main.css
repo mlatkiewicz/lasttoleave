@@ -156,8 +156,8 @@ img.headshots {
 .btn-secondary {
 	background-color: beige;
 	border-color: lightgoldenrodyellow;
-	margin-top: 5px;
 	color: black;
+	margin-top: -3px;
 }
 
 .btn-secondary:hover {
@@ -174,7 +174,8 @@ img.headshots {
 	padding-right: 15px;      /* match Bootstrap’s gutter */
 	padding-left: 15px;
 }
-	
+
+
 
 /* Small devices (landscape phones, 576px and up) */
 
@@ -182,6 +183,7 @@ img.headshots {
 	#header-logo {
 		width: 90%;		
 	}
+	
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -225,6 +227,9 @@ img.headshots {
 	blockquote {
 		overflow: auto;
 	}
+	#bd-email {
+		width: 300px;
+	}
 }
 	
 }
@@ -234,6 +239,7 @@ img.headshots {
 	#header-logo {
 		width: 60%;
 	}
+
 
 }
 
