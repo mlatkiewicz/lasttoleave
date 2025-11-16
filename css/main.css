@@ -45,6 +45,15 @@ h3 {
 	display: inline-flex
 }
 
+form h3 {
+	font-size: 22px;
+	color: #ff1cd1; 
+	background-color: white;
+	-ms-transform: rotate(-0.7deg); /* IE 9 */
+	-webkit-transform: rotate(-0.7deg); /* Safari */
+	margin-bottom: -10px;
+}
+
 h4 {
 	font-family: 'Alegreya', serif;
 	text-transform: uppercase;
@@ -58,7 +67,7 @@ h5 {
 }
 
 
-p, blockquote {
+p, blockquote, aside, ol, ul {
 	font-family: 'Alegreya', serif;
 }
 
@@ -98,7 +107,7 @@ blockquote {
 	text-align: center;
 }
 
-#life-plan h2 {
+#left-column h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 62px;
 	text-transform: uppercase;
@@ -144,6 +153,18 @@ img.headshots {
 	padding-top: 5px;
 }
 
+.btn-secondary {
+	background-color: beige;
+	border-color: lightgoldenrodyellow;
+	margin-top: 5px;
+	color: black;
+}
+
+.btn-secondary:hover {
+	background-color: color(display-p3 0.883 0.883 0.79);
+	color: black;
+	border-color: lightgoldenrodyellow;
+	}
 
 
 
