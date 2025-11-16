@@ -166,7 +166,15 @@ img.headshots {
 	border-color: lightgoldenrodyellow;
 	}
 
-
+.content-wrap {
+	width: 100%;
+	max-width: 1400px;        /* or whatever feels right */
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;      /* match Bootstrap’s gutter */
+	padding-left: 15px;
+}
+	
 
 /* Small devices (landscape phones, 576px and up) */
 
@@ -230,4 +238,6 @@ img.headshots {
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+	
+ }
